@@ -1,0 +1,57 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Fri Dec 13 00:51:50 2024
+# Process ID: 29164
+# Current directory: C:/Users/mjtuf/OneDrive/Documents/School Stuff/Cmpen 331/Vivado Projects/HW_skeleton/HW_skeleton
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent30928 C:\Users\mjtuf\OneDrive\Documents\School Stuff\Cmpen 331\Vivado Projects\HW_skeleton\HW_skeleton\skeleton.xpr
+# Log file: C:/Users/mjtuf/OneDrive/Documents/School Stuff/Cmpen 331/Vivado Projects/HW_skeleton/HW_skeleton/vivado.log
+# Journal file: C:/Users/mjtuf/OneDrive/Documents/School Stuff/Cmpen 331/Vivado Projects/HW_skeleton/HW_skeleton\vivado.jou
+# Running On        :Mikes_Laptop
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :AMD Ryzen 5 7235HS                             
+# CPU Frequency     :3194 MHz
+# CPU Physical cores:4
+# CPU Logical cores :8
+# Host memory       :12554 MB
+# Swap memory       :15032 MB
+# Total Virtual     :27586 MB
+# Available Virtual :10157 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/mjtuf/OneDrive/Documents/School Stuff/Cmpen 331/Vivado Projects/HW_skeleton/HW_skeleton/skeleton.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config {C:/Users/mjtuf/OneDrive/Documents/School Stuff/Cmpen 331/Vivado Projects/HW_skeleton/HW_skeleton/testbench_behav.wcfg}
+source testbench.tcl
+current_wave_config {testbench_behav.wcfg}
+add_wave {{/testbench/dp/pcmodule}} 
+current_wave_config {testbench_behav.wcfg}
+add_wave {{/testbench/dp/if_id}} 
+current_wave_config {testbench_behav.wcfg}
+add_wave {{/testbench/dp/hu}} 
+current_wave_config {testbench_behav.wcfg}
+add_wave {{/testbench/dp/cu}} 
+current_wave_config {testbench_behav.wcfg}
+add_wave {{/testbench/dp/hu}} 
+relaunch_sim
+relaunch_sim
+save_wave_config {C:/Users/mjtuf/OneDrive/Documents/School Stuff/Cmpen 331/Vivado Projects/HW_skeleton/HW_skeleton/testbench_behav.wcfg}
+current_wave_config {testbench_behav.wcfg}
+add_wave {{/testbench/dp/rf}} 
+current_wave_config {testbench_behav.wcfg}
+add_wave {{/testbench/dp/fMuxA}} 
+current_wave_config {testbench_behav.wcfg}
+add_wave {{/testbench/dp/fu}} 
+current_wave_config {testbench_behav.wcfg}
+add_wave {{/testbench/dp/rf}} 
+save_wave_config {C:/Users/mjtuf/OneDrive/Documents/School Stuff/Cmpen 331/Vivado Projects/HW_skeleton/HW_skeleton/testbench_behav.wcfg}
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+close_sim
